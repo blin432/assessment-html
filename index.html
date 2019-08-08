@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <style>
+        body{
+            font-weight: bold;
+            font-size: 13px;   
+                }
+        .main{
+            display: flex;
+            flex-wrap: nowrap;
+            width:500px;
+            padding :0;
+                }
+        div{
+            padding:10px;
+            padding-bottom:0;
+                }
+        input{
+            margin-top:4px;
+            margin-bottom: 4px;
+                }
+        select{
+            margin-top:4px;
+             margin-bottom: 4px;
+                }
+        form{
+            width:500px;
+            margin: auto 0;
+            text-align:center;
+                }
+        .submit-button{
+            border-radius: 5px;
+            width:200px;
+            background-color:lightgrey;
+                }
+    </style>
+</head>
+    <body>
+        <form >
+            <div class= "main" style= "text-align: left;">
+                <div>
+                    First name:<br>
+                    <input type="text">
+                    <br>
+                    City:<br>
+                    <input type="text" >
+                    <br><br>
+                </div>
+                <div>
+                    Middle Init:<br>
+                    <input style = "width: 25px;" type="text" >
+                    <br>
+                    State:<br>
+                        <select class= "custom" style ="width:120px;">
+                        <option value="0"></option>
+                        <option value="1">Georgia</option>
+                        </select>
+                    <br><br>
+                </div>
+                <div>
+                    Last name:<br>
+                    <input type="text" >
+                    <br>
+                    Zip:<br>
+                    <input style = "width:45px;" type="text" >
+                    <br><br>
+                </div>
+            </div>
+            <input class="submit-button"  type="submit" value="Save">
+        </form>            
+    </body>
+</html>
+
+
